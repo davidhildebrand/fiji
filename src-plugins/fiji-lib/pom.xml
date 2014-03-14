@@ -16,6 +16,10 @@
 	<name>jars/fiji-lib.jar</name>
 	<description></description>
 
+	<properties>
+		<ij1-patcher.version>0.3.0-SNAPSHOT</ij1-patcher.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>net.imagej</groupId>
