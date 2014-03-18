@@ -232,7 +232,7 @@ public class MessageXC
     }
     
     public static final long DEFAULT_WAIT = 10000;
-    public static final TimeUnit DEFAULT_UNIT = TimeUnit.MILLISECONDS;
+    public static final TimeUnit DEFAULT_UNIT = TimeUnit.SECONDS;
 
     private final List<Bottler> bottlers;
     private final ArrayBlockingQueue<ClusterMessage> messageQ;
